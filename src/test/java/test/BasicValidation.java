@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class BasicValidation extends BaseTest{
 	
 	@Test
-	public void urlValidation() {//from d1
+	public void urlValidation() {//from c1 + from d1
 		String expectedResult = "https://www.facebook.com/";
 		String actualResult = driver.getCurrentUrl();
 		
