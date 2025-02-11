@@ -10,7 +10,7 @@ public class BaseTest {
 	public static WebDriver driver;
 	String url = "https://www.facebook.com";
 	
-	//opening the browser + from y branch
+	//opening the browser + stash demo from x1 + from y branch
 	@BeforeTest
 	public void setup() {
 		driver = new ChromeDriver();
